@@ -32,6 +32,11 @@
     <!-- String indicating the package name of the device GbaService implementation. -->
     <string name="config_gba_package" translatable="false">com.shannon.rcsservice</string>
 
+     <!-- The package names which can request thermal mitigation. -->
+    <string-array name="thermal_mitigation_allowlisted_packages" translatable="false">
+         <item>com.google.android.connectivitythermalpowermanager</item>
+    </string-array>
+    
     <!-- This device requires that emergency calls are placed over the default data SIM.
          This is done mainly to avoid placing emergency calls over CROSS SIM when even
          though it's the default voice SIM. -->
