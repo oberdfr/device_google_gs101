@@ -54,3 +54,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
 # TODO: fix
 # PRODUCT_RESTRICT_VENDOR_FILES := all
+
+# Linker config
+PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
+    device/google/gs101/linker.config.json
