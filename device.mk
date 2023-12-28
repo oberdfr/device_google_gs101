@@ -631,8 +631,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # hw composer HAL
 $(call soong_config_set,google_displaycolor,displaycolor_platform,gs101)
 PRODUCT_PACKAGES += \
-	libdisplaycolor \
-	hwcomposer.$(TARGET_BOARD_PLATFORM)
+    android.hardware.composer.hwc3-service.pixel \
+	libdisplaycolor
 
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += displaycolor_service
