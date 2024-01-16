@@ -1139,5 +1139,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libtflite
 
+# EUICC
+PRODUCT_PACKAGES += \
+    EuiccSupportPixelOverlay
+
 # Hardware Info Collection
 include hardware/google/pixel/HardwareInfo/HardwareInfo.mk
