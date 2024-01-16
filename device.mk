@@ -1136,5 +1136,9 @@ PRODUCT_VENDOR_PROPERTIES += ro.crypto.metadata_init_delete_all_keys.enabled=tru
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.swap_free_low_percentage=100
 
+# Tensor Flow Lite
+PRODUCT_PACKAGES += \
+    libtflite
+
 # Hardware Info Collection
 include hardware/google/pixel/HardwareInfo/HardwareInfo.mk
