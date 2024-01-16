@@ -43,4 +43,11 @@
 
     <string name="proximity_sensor_secondary_type" translatable="false">android.sensor.proximity</string>
     <item name="proximity_sensor_secondary_threshold" translatable="false" format="float" type="dimen">5</item>
+    
+     <!-- Whether to show a warning notification when device's skin temperature is high. -->
+    <integer name="config_showTemperatureWarning">1</integer>
+
+    <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
+    <integer name="config_showUsbPortAlarm">1</integer>
+
 </resources>
