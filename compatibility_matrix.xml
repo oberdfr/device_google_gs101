@@ -78,6 +78,10 @@
             <instance>default</instance>
         </interface>
     </hal>
+
+    <!--ADD NECESSARY THINGS MANUALLY-->
+
+    
     <vndk>
         <version>0.0.0</version>
     </vndk>
