@@ -161,14 +161,14 @@
 
     <!--ADD NECESSARY THINGS MANUALLY-->
     
-    <hal format="aidl">
+    <!--<hal format="aidl">
         <name>android.hardware.graphics.composer3</name>
         <version>2</version>
         <interface>
             <name>IComposer</name>
             <instance>default</instance>
         </interface>
-    </hal>
+    </hal>-->
 
     <hal format="aidl" optional="false">
         <name>android.hardware.contexthub</name>
