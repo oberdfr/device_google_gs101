@@ -54,3 +54,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
 # TODO: fix
 # PRODUCT_RESTRICT_VENDOR_FILES := all
+
+#inherit PixelApps
+$(call inherit-product, vendor/google/pixelapps/config_full.mk)
+#$(call inherit-product, vendor/google/pixel-framework/config.mk)
