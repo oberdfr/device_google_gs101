@@ -54,3 +54,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
 # TODO: fix
 # PRODUCT_RESTRICT_VENDOR_FILES := all
+
+# RRO_overlay
+PRODUCT_PACKAGES += \
+    SettingsGoogleRes-gs101
