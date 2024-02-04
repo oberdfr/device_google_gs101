@@ -56,5 +56,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 # PRODUCT_RESTRICT_VENDOR_FILES := all
 
 #inherit PixelApps
-$(call inherit-product, vendor/google/pixelapps/config_full.mk)
-#$(call inherit-product, vendor/google/pixel-framework/config.mk)
+#$(call inherit-product, vendor/google/pixelapps/config_full.mk)
+$(call inherit-product, vendor/pixel-framework/config.mk)
+
+# Rro_overlay
+PRODUCT_PACKAGES += \
+    SettingsResRaven
