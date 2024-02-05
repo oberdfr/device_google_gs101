@@ -57,6 +57,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
 #inherit PixelApps
 #$(call inherit-product, vendor/google/pixelapps/config_full.mk)
+
+#inherit pixel-framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
 
 # Rro_overlay
