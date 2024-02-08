@@ -11,6 +11,9 @@
     <!-- Whether to show the Preference for Touch Sensitivity -->
     <bool name="config_show_touch_sensitivity">true</bool>
 
+    <!-- Whether to show the Preference for Smooth Display -->
+    <bool name="config_show_smooth_display">true</bool>
+
     <!-- Whether to show Reverse Charging -->
     <bool name="config_show_reverse_charging">true</bool>
 
