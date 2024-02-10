@@ -40,7 +40,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 #
 # All components inherited here go to product image
 #
-$(call inherit-product, vendor/hentai/build/product/hentai_product.mk)
+$(call inherit-product, vendor/vortex/build/product/hentai_product.mk)
 
 #
 # All components inherited here go to vendor image
