@@ -50,4 +50,7 @@
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
 
+     <!-- Whether to show screen-off udfps -->
+    <bool name="config_supportsScreenOffUdfps">false</bool>
+
 </resources>
