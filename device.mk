@@ -630,9 +630,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # hw composer HAL
 $(call soong_config_set,google_displaycolor,displaycolor_platform,gs101)
-PRODUCT_PACKAGES += \
-	libdisplaycolor \
-	hwcomposer.$(TARGET_BOARD_PLATFORM)
 
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += displaycolor_service
@@ -818,8 +815,8 @@ include device/google/gs101/confirmationui/confirmationui.mk
 include device/google/gs101/trusty_metricsd/trusty_metricsd.mk
 
 PRODUCT_PACKAGES += \
-	android.hardware.graphics.composer@2.4-impl \
-	android.hardware.graphics.composer@2.4-service
+	android.hardware.composer.hwc3-service.pixel \
+	libdisplaycolor
 
 # Storage: for factory reset protection feature
 PRODUCT_PROPERTY_OVERRIDES += \
