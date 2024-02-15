@@ -226,7 +226,7 @@ $(call soong_config_set,haptics,actuator_model,$(ACTUATOR_MODEL))
 $(call soong_config_set,haptics,adaptive_haptics_feature,$(ADAPTIVE_HAPTICS_FEATURE))
 
 # HWComposer
-BOARD_HWC_VERSION := libhwc2.1
+BOARD_HWC_VERSION := hwc3
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := false
 BOARD_HDMI_INCAPABLE := true
 TARGET_USES_HWC2 := true
