@@ -20,4 +20,7 @@
     <!-- Whether to show Clear Calling -->
     <!-- <bool name="config_clear_calling_enabled">true</bool> -->
 
+    <!-- Whether to show Adaptive Sleep.-->
+    <bool name="config_adaptive_sleep_available">false</bool>
+
 </resources>
