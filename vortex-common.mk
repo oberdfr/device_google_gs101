@@ -58,3 +58,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 # RRO_overlay
 PRODUCT_PACKAGES += \
     SettingsGoogleRes-gs101
+
+# --- Only build if TARGET_BUILD_LINEAGEHW is set --- #
+ifeq ($(TARGET_BUILD_LINEAGEHW), true)
+
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
+# Touch
+include hardware/google/pixel/touch/device.mk
+
+# Lineage Health
+include hardware/google/pixel/lineage_health/device.mk
+
+endif
