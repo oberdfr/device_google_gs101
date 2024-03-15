@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2022 The LineageOS Project
-     SPDX-License-Identifier: Apache-2.0
--->
 <resources>
 
     <!-- Whether to show a preference item for regulatory information in About phone -->
@@ -11,13 +7,10 @@
     <!-- Whether to show the Preference for Touch Sensitivity -->
     <bool name="config_show_touch_sensitivity">true</bool>
 
-    <!-- Whether to show the Preference for Smooth Display -->
-    <bool name="config_show_smooth_display">true</bool>
+    <!-- Whether to show Adaptive Sleep -->
+    <bool name="config_adaptive_sleep_available">true</bool>
 
-    <!-- Whether to show Reverse Charging -->
-    <bool name="config_show_reverse_charging">true</bool>
-
-    <!-- Whether to show Clear Calling -->
-    <!-- <bool name="config_clear_calling_enabled">true</bool> -->
+    <!-- Whether to show Smart Storage toggle -->
+    <bool name="config_show_smart_storage_toggle">false</bool>
 
 </resources>
