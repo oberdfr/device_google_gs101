@@ -66,6 +66,11 @@ PRODUCT_PACKAGES += \
     
 endif
 
+# Additional Google Features
+PRODUCT_PACKAGES += \
+    pixel_experience_2022 \
+    pixel_experience_2022_midyear \
+
 # --- Only build if TARGET_BUILD_LINEAGEHW is set --- #
 ifeq ($(TARGET_BUILD_LINEAGEHW), true)
 
