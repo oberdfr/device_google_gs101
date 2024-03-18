@@ -55,9 +55,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 # TODO: fix
 # PRODUCT_RESTRICT_VENDOR_FILES := all
 
-# RRO_overlay
+ifeq ($(TARGET_PREBUILT_PIXELAPPS), true)
+# SettingsGoogle RRO_overlay
 PRODUCT_PACKAGES += \
-    SettingsGoogleOverlayGS101
+    SettingsGoogleOverlayGS101 
+
+# SystemUIGoogle RRO_overlay
+PRODUCT_PACKAGES += \
+    SystemUIGoogleOverlayGS101
+    
+endif
 
 # --- Only build if TARGET_BUILD_LINEAGEHW is set --- #
 ifeq ($(TARGET_BUILD_LINEAGEHW), true)

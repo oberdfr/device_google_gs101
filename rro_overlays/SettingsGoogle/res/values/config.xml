@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Whether to aggregate for network selection list-->
+    <bool name="config_network_selection_list_aggregation_enabled">true</bool>
+
+    <!-- The switch preference's default value of connectivity helper call quality-->
+    <bool name="config_show_connectivity_helper_call_quality">true</bool>
+    <!-- The switch preference's default value of connectivity helper DeviceToDevice-->
+    <bool name="config_show_connectivity_helper_d2d">true</bool>
+
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">true</bool>
 
@@ -9,8 +17,5 @@
 
     <!-- Whether to show Adaptive Sleep -->
     <bool name="config_adaptive_sleep_available">true</bool>
-
-    <!-- Whether to show Smart Storage toggle -->
-    <bool name="config_show_smart_storage_toggle">false</bool>
-
+    
 </resources>
